@@ -4,8 +4,15 @@
     --accent-color: #999999;
     --font-family: 'Montserrat', sans-serif;
   }
+  #whole-body body{
+    background-image: url('image/1200x600wa.png'); /* Replace with your image path */
+    background-size: cover; /* This makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+        }
+        
 
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -558,3 +565,15 @@ display: flex;
   max-width: 1200px; /* Limits the maximum width */ 
   margin: 0 auto; /* Centers the container */ 
 } 
+.shape{
+  height: 500px;
+  width: 400px;
+  background-color: #474747;
+  top: 0;
+  right: 0;
+  margin-top: -150px;
+  border-radius: 40px;
+  z-index: -1;
+  rotate: 55deg;
+  position: absolute;
+}
